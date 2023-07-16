@@ -1,0 +1,31 @@
+*{
+   background-color: lightcoral;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  #stopwatch, #timer {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #stopwatch-controls, #timer-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  input[type="number"] {
+    width: 60px;
+    text-align: center;
+    background-color: aqua;
+  }
+  button{
+    background-color: aqua;
+  }
